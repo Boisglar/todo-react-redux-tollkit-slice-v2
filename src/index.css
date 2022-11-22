@@ -1,0 +1,25 @@
+.wrapper { 
+    max-width: 300px;
+    margin: auto;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.text { 
+    flex: 1;
+}
+form {
+    text-align: center;
+} 
+.delete { 
+    cursor: pointer;
+    color: red;
+}
